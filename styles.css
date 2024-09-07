@@ -1,0 +1,318 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0 20px; /* Add padding to the left and right */
+    background-color: var(--background-color);
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.container {
+    text-align: center;
+    border-radius: 24px;
+    padding: 40px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.5s ease;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    max-width: 600px; /* Set a maximum width for the container */
+    width: 100%; /* Make the container responsive */
+    transition: all 0.5s ease-in-out
+}
+
+.quote-container {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: slideIn 0.5s ease forwards;
+    transition: all 0.5s ease-in-out
+}
+
+.quote {
+    font-size: 2.5em;
+    margin: 0;
+    transition: color 0.5s ease;
+}
+
+.author {
+    font-size: 1.5em;
+    margin-top: 20px;
+    transition: color 0.5s ease;
+}
+
+.refresh-button {
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.5s ease;
+}
+
+.refresh-button:hover {
+    transform: scale(1.1);
+}
+
+.refresh-icon {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Color Palettes */
+:root {
+    --background-color: #f5f5f5;
+    --quote-color: #333;
+    --author-color: #777;
+    --button-color: #00796b;
+    --button-hover-color: #004d40;
+}
+
+/* Palette 1 */
+.palette1 {
+    --background-color: #ffebee;
+    --quote-color: #c62828;
+    --author-color: #b71c1c;
+    --button-color: #e53935;
+    --button-hover-color: #c62828;
+}
+
+/* Palette 2 */
+.palette2 {
+    --background-color: #f8bbd0;
+    --quote-color: #ad1457;
+    --author-color: #880e4f;
+    --button-color: #d81b60;
+    --button-hover-color: #ad1457;
+}
+
+/* Palette 3 */
+.palette3 {
+    --background-color: #f3e5f5;
+    --quote-color: #6a1b9a;
+    --author-color: #4a148c;
+    --button-color: #8e24aa;
+    --button-hover-color: #6a1b9a;
+}
+
+/* Palette 4 */
+.palette4 {
+    --background-color: #ede7f6;
+    --quote-color: #4527a0;
+    --author-color: #311b92;
+    --button-color: #5e35b1;
+    --button-hover-color: #4527a0;
+}
+
+/* Palette 5 */
+.palette5 {
+    --background-color: #e8eaf6;
+    --quote-color: #283593;
+    --author-color: #1a237e;
+    --button-color: #3949ab;
+    --button-hover-color: #283593;
+}
+
+/* Palette 6 */
+.palette6 {
+    --background-color: #e3f2fd;
+    --quote-color: #1565c0;
+    --author-color: #0d47a1;
+    --button-color: #1e88e5;
+    --button-hover-color: #1565c0;
+}
+
+/* Palette 7 */
+.palette7 {
+    --background-color: #e0f7fa;
+    --quote-color: #00838f;
+    --author-color: #006064;
+    --button-color: #00acc1;
+    --button-hover-color: #00838f;
+}
+
+/* Palette 8 */
+.palette8 {
+    --background-color: #e0f2f1;
+    --quote-color: #00695c;
+    --author-color: #004d40;
+    --button-color: #00897b;
+    --button-hover-color: #00695c;
+}
+
+/* Palette 9 */
+.palette9 {
+    --background-color: #e8f5e9;
+    --quote-color: #2e7d32;
+    --author-color: #1b5e20;
+    --button-color: #43a047;
+    --button-hover-color: #2e7d32;
+}
+
+/* Palette 10 */
+.palette10 {
+    --background-color: #f1f8e9;
+    --quote-color: #558b2f;
+    --author-color: #33691e;
+    --button-color: #7cb342;
+    --button-hover-color: #558b2f;
+}
+
+/* Palette 11 */
+.palette11 {
+    --background-color: #f9fbe7;
+    --quote-color: #9e9d24;
+    --author-color: #827717;
+    --button-color: #c0ca33;
+    --button-hover-color: #9e9d24;
+}
+
+/* Palette 12 */
+.palette12 {
+    --background-color: #fffde7;
+    --quote-color: #f9a825;
+    --author-color: #f57f17;
+    --button-color: #fdd835;
+    --button-hover-color: #f9a825;
+}
+
+/* Palette 13 */
+.palette13 {
+    --background-color: #fff3e0;
+    --quote-color: #ef6c00;
+    --author-color: #e65100;
+    --button-color: #ffa726;
+    --button-hover-color: #ef6c00;
+}
+
+/* Palette 14 */
+.palette14 {
+    --background-color: #fbe9e7;
+    --quote-color: #d84315;
+    --author-color: #bf360c;
+    --button-color: #f4511e;
+    --button-hover-color: #d84315;
+}
+
+/* Palette 15 */
+.palette15 {
+    --background-color: #efebe9;
+    --quote-color: #5d4037;
+    --author-color: #3e2723;
+    --button-color: #795548;
+    --button-hover-color: #5d4037;
+}
+
+/* Palette 16 */
+.palette16 {
+    --background-color: #eceff1;
+    --quote-color: #546e7a;
+    --author-color: #37474f;
+    --button-color: #78909c;
+    --button-hover-color: #546e7a;
+}
+
+/* Palette 17 */
+.palette17 {
+    --background-color: #fafafa;
+    --quote-color: #757575;
+    --author-color: #424242;
+    --button-color: #9e9e9e;
+    --button-hover-color: #757575;
+}
+
+/* Palette 18 */
+.palette18 {
+    --background-color: #fce4ec;
+    --quote-color: #c2185b;
+    --author-color: #880e4f;
+    --button-color: #f06292;
+    --button-hover-color: #c2185b;
+}
+
+/* Palette 19 */
+.palette19 {
+    --background-color: #e8eaf6;
+    --quote-color: #3949ab;
+    --author-color: #1a237e;
+    --button-color: #7986cb;
+    --button-hover-color: #3949ab;
+}
+
+/* Palette 20 */
+.palette20 {
+    --background-color: #e0f1f1;
+    --quote-color: #00897b;
+    --author-color: #004d40;
+    --button-color: #4db6ac;
+    --button-hover-color: #00897b;
+}
+
+/* Apply the initial palette */
+body {
+    background-color: var(--background-color);
+}
+
+.container {
+    background-color: var(--background-color);
+    color: var(--quote-color);
+}
+
+.quote {
+    color: var(--quote-color);
+}
+
+.author {
+    color: var(--author-color);
+}
+
+.refresh-button {
+    background-color: var(--button-color);
+}
+
+.refresh-button:hover {
+    background-color: var(--button-hover-color);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .quote {
+        font-size: 2em; /* Reduce font size on smaller screens */
+    }
+
+    .author {
+        font-size: 1.2em; /* Reduce author font size */
+    }
+
+    .refresh-button {
+        width: 48px; /* Smaller button on mobile */
+        height: 48px; /* Smaller button on mobile */
+    }
+}
