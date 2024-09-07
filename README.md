@@ -2,7 +2,7 @@
 
 ![Quote Generator Banner](https://i.imgur.com/hQJGkyi.png)
 
-A simple and elegant quote generator built with HTML, CSS, and JavaScript. Fetch random quotes from the Quotable API and enjoy a visually appealing experience with a color run animation in the background and a toggle switch for light and dark modes. 🌈🌙
+A simple and elegant quote generator built with HTML, CSS, and JavaScript. Fetch random quotes from the Quotable API and enjoy a visually appealing experience with MD3 Colour Palates in the background and a toggle switch for refreshing the quotes. 🌈🌙
 
 ## Features ✨
 
@@ -34,7 +34,7 @@ Dark Mode:
 
 ## Contributing 🤝
 
-Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request. 🙌
+Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to submit a pull request. 🙌
 
 1. Fork the repository
 2. Create your feature branch 
