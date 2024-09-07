@@ -15,10 +15,10 @@ A simple and elegant quote generator built with HTML, CSS, and JavaScript. Fetch
 ## Screenshots 📸
 
 Light Mode:
-![Light Mode Screenshot](path/to/light/mode/screenshot.jpg)
+![Screenshot 1](https://i.imgur.com/BlgZ3KE.png)
 
 Dark Mode:
-![Dark Mode Screenshot](path/to/dark/mode/screenshot.jpg)
+![Screenshot 2](https://i.imgur.com/mKQ4z6F.png)
 
 ## Getting Started 🚀
 
