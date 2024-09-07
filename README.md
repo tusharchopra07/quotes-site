@@ -25,7 +25,7 @@ Screenshot 2:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/quote-generator.git
+   git clone https://github.com/tusharchopra07/quote-generator.git
    ```
 
 2. Open the `index.html` file in your preferred web browser.
