@@ -1,6 +1,6 @@
 # MD3 Quote Generator 💬
 
-![Quote Generator Banner](path/to/your/banner.jpg)
+![Quote Generator Banner](https://i.imgur.com/hQJGkyi.png)
 
 A simple and elegant quote generator built with HTML, CSS, and JavaScript. Fetch random quotes from the Quotable API and enjoy a visually appealing experience with a color run animation in the background and a toggle switch for light and dark modes. 🌈🌙
 
