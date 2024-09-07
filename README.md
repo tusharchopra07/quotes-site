@@ -30,7 +30,7 @@ Dark Mode:
 
 2. Open the `index.html` file in your preferred web browser.
 
-3. Click the refresh button or toggle the mode switch to generate new quotes and switch between light and dark modes. 🔄🌞🌙
+3. Click the refresh button or toggle the mode switch to generate new quotes and switch between light and dark modes. (maybe i will add in future) 🔄🌞🌙
 
 ## Contributing 🤝
 
