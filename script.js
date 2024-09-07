@@ -62,3 +62,10 @@ refreshQuote();
 
 // Refresh button click event
 refreshButton.addEventListener('click', refreshQuote);
+
+// Contribution: Add on Space pressed (very easy)
+document.addEventListener('keydown', function(event) {
+    if (event.keyCode === 32) {
+        refreshQuote();
+    }
+});
