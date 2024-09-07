@@ -8,8 +8,8 @@ A simple and elegant quote generator built with HTML, CSS, and JavaScript. Fetch
 
 - Fetches random quotes from the Quotable API 📚
 - Smooth animations for quote display 🎨
-- Color run animation in the background 🌈
-- Toggle switch for light and dark modes 🌞🌙
+- Colourful Palates that follows MD3 Colour System 🌈
+- Toggle switch for light and dark modes (in future) 🌞🌙
 - Responsive design for various screen sizes 📱💻
 
 ## Screenshots 📸
