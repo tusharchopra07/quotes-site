@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -21,6 +22,35 @@
             </svg>
         </button>
     </div>
+    <div class="github-icon">
+        <a href="https://github.com/tusharchopra07" target="_blank" aria-label="GitHub Profile">
+            <i class="fab fa-github"></i>
+        </a>
+    </div>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .github-icon {
+            position: fixed;
+            top: 20px;
+            right: 25px;
+            z-index: 1000;
+        }
+        .github-icon a {
+            text-decoration: none;
+            color: #333; /* Icon color */
+            font-size: 24px; /* Icon size */
+        }
+        footer {
+            position: fixed;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
     <script src="script.js"></script>
 </body>
 </html>
