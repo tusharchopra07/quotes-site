@@ -2,9 +2,10 @@ const quoteElement = document.getElementById("quote");
 const authorElement = document.getElementById("author");
 const refreshButton = document.getElementById("refreshButton");
 
+// Changed the api from quotable to am generic api as many people were asking that quotable was having some issues
 async function fetchQuote() {
     try {
-        const response = await fetch("https://api.quotable.io/random");
+        const response = await fetch("https://quotes-api-self.vercel.app/quote");
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
@@ -18,7 +19,7 @@ async function fetchQuote() {
 }
 
 function displayQuote(quote) {
-    quoteElement.textContent = `"${quote.content}"`;
+    quoteElement.textContent = `"${quote.quote}"`;
     authorElement.textContent = `— ${quote.author}`;
     
     // Add animation when quote changes
